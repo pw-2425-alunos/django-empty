@@ -2,3 +2,7 @@ django
 Pillow
 python-decouple
 django_extensions
+django-allauth
+requests
+PyJWT
+cryptography
