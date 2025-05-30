@@ -55,3 +55,6 @@ jobs:
 
             echo "Running new container for {{ env.STUDENT_ID }}"
             docker run -d --name ${{ env.STUDENT_ID }} --network vm-pw_pw-network --expose 3000 ghcr.io/${{ env.REPOSITORY }}/${{ github.event.repository.name }}:latest
+
+            sleep 15
+            docker logs ${{ env.STUDENT_ID }}
