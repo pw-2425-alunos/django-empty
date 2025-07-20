@@ -10,7 +10,7 @@ O `django-empty` foi criado para ser um ponto de partida para projetos Django. P
 
 - **.github/workflows**: Contém os ficheiros de configuração para o pipeline CI/CD, que automatiza o build, push e deploy da imagem Docker.
 - **.gitignore**: Define os ficheiros e pastas a serem ignorados pelo Git, como ficheiros temporários e ambientes virtuais.
-- **Dockerfile**: Ficheiro de configuração para construir a imagem Docker da aplicação Django.
+- **Dockerfile**: Ficheiro de configuração para construir a imagem Docker da aplicação Django. Atenção que `project` deve corresponder ao nome da pasta onde está `settings.py`.
 - **docker-compose.yml**: Configuração para orquestrar serviços com Docker Compose, útil para desenvolvimento local.
 - **requirements.txt**: Lista as dependências Python necessárias para o projeto.
 
