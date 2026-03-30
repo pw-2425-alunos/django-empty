@@ -16,6 +16,12 @@ O `django-empty` foi criado para ser um ponto de partida para projetos Django. P
 
 ## Media/Static Files
 
+Adicione WhiteNoise no MIDDLEWARE antes do CommonMiddleware:
+
+```
+"whitenoise.middleware.WhiteNoiseMiddleware",
+```
+
 Em settings.py:
 ```
 import os
