@@ -4,6 +4,10 @@
 *.pyc
 __pycache__
 
+# Environment variables #
+.env
+.env.*
+
 # Backup files # 
 *.bak 
 
